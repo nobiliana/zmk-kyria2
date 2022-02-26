@@ -55,10 +55,10 @@
 // | SHIFT | F 1 | F 2 | F 3   | F 4  |   V   | BT TOG  |  L GUI  |  |  R GUI  |  FIND   |   1   |  2    |  3    |  +   |   /   | SHFT |
 //                     | CONTR | ALT  | SPACE |  RAISE  |  LOWER  |  |  CONTR  |  LOWER  |   .   | RCTL  | BLUET |
 			bindings = <
-	&kp TAB    &kp Q &kp W &kp F &kp P &kp B                                                 &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_N0   &kp LC(C) &kp DEL
-	&kp LCTRL  &kp A &kp R &kp S &kp T &kp G                                                 &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp I       &kp LC(P) &kp BSLH
-	&kp LSHFT  &kp Z &kp X &kp C &kp D &kp V   &out OUT_TOG &kp LGUI      &kp RGUI &kp LC(F) &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_PLUS &kp FSLH  &kp RSHFT
-	              &tog CONTROL &kp LALT &kp SPACE &mo RAISE &mo LOWER     &mo CONTROL &mo LOWER &kp KP_DOT &kp RCTRL &tog BLUET
+	&kp TAB    &kp F9 &kp F10 &kp F11 &kp F12 &kp B                                                 &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_N0   &kp LC(C) &kp DEL
+	&kp LCTRL  &kp F5 &kp F6  &kp F7  &kp F8  &kp G                                                 &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp I       &kp LC(P) &kp BSLH
+	&kp LSHFT  &kp F1 &kp F2  &kp F3  &kp F4  &kp V   &out OUT_TOG &kp LGUI      &kp RGUI &kp LC(F) &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_PLUS &kp FSLH  &kp RSHFT
+	                     &tog CONTROL &kp LALT &kp SPACE &mo RAISE &mo LOWER     &mo CONTROL &mo LOWER &kp KP_DOT &kp RCTRL &tog BLUET
 			>;
 
 			sensor-bindings = <&inc_dec_kp DOWN UP &inc_dec_kp UP DOWN>;
