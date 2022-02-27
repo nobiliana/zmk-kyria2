@@ -44,7 +44,7 @@
 	              &tog CONTROL &kp LALT &kp SPACE &mo RAISE &mo LOWER     &mo CONTROL &mo LOWER &kp SPACE &kp RCTRL &tog BLUET
 			>;
 
-			sensor-bindings = <&inc_dec_kp RIGHT LEFT &inc_dec_kp RIGHT LEFT>;
+			sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp LEFT RIGHT>;
 		};
 
 		lower_layer {
@@ -61,7 +61,7 @@
 	                     &tog CONTROL &kp LALT &kp SPACE &mo RAISE &mo LOWER     &mo CONTROL &mo LOWER &kp KP_DOT &kp RCTRL &tog BLUET
 			>;
 
-			sensor-bindings = <&inc_dec_kp DOWN UP &inc_dec_kp UP DOWN>;
+			sensor-bindings = <&inc_dec_kp UP DOWN &inc_dec_kp DOWN UP>;
 		};
 
 		raise_layer {
