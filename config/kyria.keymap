@@ -14,7 +14,7 @@
 #define LOWER   1
 #define RAISE   2
 #define CONTROL 3
-#define BLUET		4
+#define BLUET	4
 
 / {
     conditional_layers {
